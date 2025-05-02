@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingHorizontal="20dp"
+    android:background="#3a412f"
+    tools:context=".ItemActivity">
+
+    <ImageView
+        android:id="@+id/itemListImageDetail"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+
+        app:srcCompat="@drawable/dahlia" />
+
+    <TextView
+            android:id="@+id/itemListTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textColor="#b3869b"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/itemListLongDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textColor="#b3869b"
+            android:textSize="16sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/itemListPriceDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textColor="#b3869b"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/ButtonBuy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#b1c2a3"
+            android:textColor="#3a412f"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Купить" />
+
+    </LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="#b3869b">
+
+<!--    android:paddingTop="10dp"-->
+<!--    android:paddingBottom="10dp"-->
+<!--    android:paddingHorizontal="10dp"-->
+    <ImageView
+        android:id="@+id/itemListImage"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@drawable/dahlia" />
+
+    <TextView
+        android:id="@+id/itemListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textColor="#3a412f"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/itemListShortDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textColor="#3a412f"
+        android:textSize="16dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/itemListPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        android:textColor="#3a412f"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/itemListButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3a412f"
+        android:textColor="#b1c2a3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Подробнее" />
+</LinearLayout>
